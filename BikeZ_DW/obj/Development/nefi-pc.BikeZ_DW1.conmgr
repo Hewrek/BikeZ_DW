@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:ObjectName="Nefi-pc.BikeZ_DW1"
+  DTS:DTSID="{14477BFA-AE1A-411F-BF4B-F351B1D46AA9}"
+  DTS:CreationName="OLEDB">
+  <DTS:ObjectData>
+    <DTS:ConnectionManager
+      DTS:ConnectRetryCount="1"
+      DTS:ConnectRetryInterval="5"
+      DTS:ConnectionString="Data Source=Localhost;Initial Catalog=BikeZ_DW;Provider=MSOLEDBSQL.1;Integrated Security=SSPI;Auto Translate=False;Application Name=SSIS-BikeZ_DW-{14477BFA-AE1A-411F-BF4B-F351B1D46AA9}Nefi-pc.BikeZ_DW1;" />
+  </DTS:ObjectData>
+</DTS:ConnectionManager>
